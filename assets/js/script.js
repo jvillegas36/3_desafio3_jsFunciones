@@ -6,5 +6,5 @@ function pintarDiv( color='green') {
 
 const div = document.querySelector('#ele1')
 div.addEventListener('click', function () {
-    pintarDiv()
+    pintarDiv("yellow")
 })
